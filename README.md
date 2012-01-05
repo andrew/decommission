@@ -18,6 +18,23 @@ And run decommission
 
     $ decommission
 
+Output looks like this:
+
+    deploytracking_app          = 3.1.1
+    foursquare-omniauth-example = 3.1.1
+    giftlist                    = 2.3.5
+    good_morning                = 3.1.1
+    governoration               = 2.3.5
+    inform-ui                   = 3.1.0
+    jobward                     = 3.1.0.rc8
+    listy                       = 3.1.1
+    poundAround                 = 3.0.7
+    shopify-qr                  = 3.2.0.rc1
+    split-rails-example         ~> 3.1.2
+    statefulapp                 = 3.0.1
+    summary                     = 3.1.0.rc5
+    teabass                     = 3.0.6
+
 ## Development
 
 Source hosted at [GitHub](http://github.com/andrew/decommission).
