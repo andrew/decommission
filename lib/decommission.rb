@@ -9,6 +9,7 @@ class Decommission
     any_rails_apps = false
     folders.each do |folder|
       if rails_app?(folder)
+        any_rails_apps = true
         if gemfile_present?(folder)
           version = detect_bundled_version(folder)
           puts "#{folder.ljust(max_length)} #{version}".green
