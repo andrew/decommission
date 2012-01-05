@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'decommission'
+Decommission.detect
+
+# needs a proper command line parser, version, help etc
