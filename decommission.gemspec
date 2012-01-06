@@ -17,5 +17,4 @@ Gem::Specification.new do |gem|
   
   gem.add_runtime_dependency("bundler")
   gem.add_runtime_dependency("colorize")
-  gem.add_runtime_dependency("trollop")
 end
