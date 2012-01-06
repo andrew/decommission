@@ -12,10 +12,10 @@ class Decommission
         any_rails_apps = true
         if gemfile_present?(folder)
           version = detect_bundled_version(folder)
-          puts "#{folder.ljust(max_length)} #{version}".green
+          puts "#{folder.ljust(max_length)} #{version}".green if version
         else
           version = detect_env_version(folder)
-          puts "#{folder.ljust(max_length)} #{version}".red
+          puts "#{folder.ljust(max_length)} #{version}".red if version
         end
       end
     end
@@ -36,7 +36,7 @@ class Decommission
     Dir.chdir folder do
       deps = Bundler::Definition.build('Gemfile', 'Gemfile.lock', {}).dependencies
       rails = deps.select{|s| s.name == 'rails' }.first
-      rails.requirement
+      rails.requirement if rails
     end
   end
 
