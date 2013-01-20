@@ -52,4 +52,4 @@ Report Issues/Feature requests on [GitHub Issues](http://github.com/andrew/decom
 
 ## Copyright
 
-Copyright (c) 2012 Andrew Nesbitt. See [LICENSE](https://github.com/andrew/decommission/blob/master/LICENSE) for details.
+Copyright (c) 2013 Andrew Nesbitt. See [LICENSE](https://github.com/andrew/decommission/blob/master/LICENSE) for details.
