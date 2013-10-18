@@ -7,6 +7,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Quickly discover which versions of rails all your apps are running}
   gem.summary       = %q{Detect old rails apps}
   gem.homepage      = ""
+  gem.license       = 'MIT'
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
