@@ -1,4 +1,4 @@
-# Decommission
+# [Decommission](http://libraries.io/rubygems/decommission)
 
 Quickly discover which versions of rails all your apps are running
 
